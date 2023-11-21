@@ -1,1 +1,1 @@
-﻿RunAction "Action1", oneIteration
+﻿RunAction "Create New User", oneIteration

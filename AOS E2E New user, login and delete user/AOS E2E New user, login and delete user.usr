@@ -14,7 +14,7 @@ DevelopTool=AQT
 Action0=Action0\Script.mts
 Log in to user account=Action2\Script.mts
 Delete user account=Action3\Script.mts
-Create New User=Action1\Script.mts
+Create New User=Action4\Script.mts
 
 [VuserProfiles]
 Profiles=Default Profile
@@ -34,7 +34,7 @@ Lang=none
 
 [TulipInfo]
 ProductName=Micro Focus UFT One
-Version=2022
+Version=2023
 
 [TulipAddins]
 AI=
@@ -61,6 +61,6 @@ Action2\ObjectRepository.bdb=
 Action3\Script.mts=
 Action3\Resource.mtr=
 Action3\ObjectRepository.bdb=
-Action1\Script.mts=
-Action1\Resource.mtr=
-Action1\ObjectRepository.bdb=
+Action4\Script.mts=
+Action4\Resource.mtr=
+Action4\ObjectRepository.bdb=

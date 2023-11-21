@@ -2,10 +2,11 @@
 'launch
 systemutil.Run "chrome.exe", "http://advantageonlineshopping.com/#/"
 
-
-'Create New User
-
+Browser("Advantage Shopping").Page("Advantage Shopping").Sync
+wait(6)
+Browser("Advantage Shopping").Page("Advantage Shopping").Link("UserMenu").Click
 Browser("Advantage Shopping").Page("Advantage Shopping").Link("CREATE NEW ACCOUNT").Click @@ script infofile_;_ZIP::ssf4.xml_;_
+Browser("Advantage Shopping").Page("Advantage Shopping").Sync
 Browser("Advantage Shopping").Page("Advantage Shopping").WebEdit("usernameRegisterPage").Set DataTable("New Users", dtGlobalSheet) @@ script infofile_;_ZIP::ssf5.xml_;_
 Browser("Advantage Shopping").Page("Advantage Shopping").WebEdit("emailRegisterPage").Set "usmandemo@mf.com" @@ script infofile_;_ZIP::ssf6.xml_;_
 Browser("Advantage Shopping").Page("Advantage Shopping").WebEdit("passwordRegisterPage").SetSecure "645b2b76031f7370753f8f54bd88c1a817ad31bf" @@ script infofile_;_ZIP::ssf7.xml_;_
